@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="Author" content="Joyal Shaji">
+        <meta name="description" content="Developing Forms">
+        <meta http-equiv="refresh" content="30">
+        <title>Form Tags</title>
+        <link rel="shortcut icon" href="./html.png" type="image/x-icon">
+        <link rel="stylesheet" href="./main.css" type="text/css">
+    </head>
+    <body>
+
+    <article>
+        <h1 style="text-align: center;">Form Tags 1</h1>
+        <form action="#">
+            <fieldset style="width: 30%;">
+                <legend>Personal Details</legend>
+            <p>
+            <label for="usersname">Enter the Name</label>
+            <input type="text">
+            </p>
+            <p>
+            <label for="usersemail">Enter the Email</label>
+            <input type="email" name="uemail" id="uemail" autofocus>
+            </p>
+            <label for="usersdateofbirth">Enter Your Date Of Birth</label>
+            <p>
+            <input type="date" name="dob" id="dob">
+            </p>
+            <label for="checkbox">Enter Your Course</label>
+            <p>
+                <fieldset>
+                <p>
+                    <label for="mern">MERN</label>
+                    <input type="checkbox" name="mern" id="mern">  
+                </p>
+                <p>
+                    <label for="mean">MEAN</label>
+                    <input type="checkbox" name="mean" id="mean">
+                </p>
+                <p>
+                    <label for="fullstack">FULL STACK DEVELOPMENTS</label>
+                    <input type="checkbox" name="fullstack" id="fullstack">
+                </p>
+                <p>
+                    <label for="appdevelop">APPLICATION DEVELOPMENTS</label>
+                    <input type="checkbox" name="appdevelop" id="appdevelop">
+                </p>
+                </fieldset>
+            </p>
+            <label for="radiobutton">Enter Your Gender</label>
+            <p>
+            <label for="male">Male</label>
+            <input type="radio" name="gend" id="male" value="male">
+            </p>
+            <p>
+            <label for="feamle">Female</label>
+            <input type="radio" name="gend" id="female" value="female">
+            </p>
+            <p>
+            <input type="time" name="" id="">
+            <input type="button" value="Submit the Contents" name="submit">
+            </p>
+        </fieldset>
+        </form>
+    </article>
+
+    <article>
+        <h1 style="text-align: center;">From Tags 2</h1>
+        <form action="#">
+            <fieldset style="width: 50%;">
+                <legend>
+                    Company Details
+                </legend>
+                <p>
+                    <label for="ufirstname">First Name</label>
+                    <input type="text" name="ufirstname" id="ufirstname" placeholder="First Name" required>    
+                </p>
+                <p>
+                    <label for="ulastname">Last Name</label>
+                    <input type="text" name="ulastname" id="ulastname" placeholder="Last Name" required>
+                </p>
+                <p>
+                    <label for="uemail">Email</label>
+                    <input type="email" name="uemail" id="uemail" placeholder="Email Id" required>
+                </p>                
+                <p>
+                    <label for="expirence">Employee Experience(0 - 15)</label>
+                    <input type="range" name="expirence" id="expirence" min="0" max="15" required>
+                </p>
+                <p>
+                    <label for="country">Country</label>
+                    <select id="country" name="country" required>
+                        <option value="india">India</option>
+                        <option value="america">America</option>
+                        <option value="england">England</option>
+                        <option value="southafrica">South Africa</option>
+                        <option value="irland">Irland</option>
+                        <option value="pakisthan">Pakisthan</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="frontend">Select Front End Domain</label>
+                    <p>
+                        <label for="twodomain">HTML & CSS</label>
+                        <input type="radio" name="frontend" id="twodomain" required>
+                        <br>
+                        <label for="threedomain">HTML,CSS & JAVASCRIPT</label>
+                        <input type="radio" name="frontend" id="threedomain" required>
+                        <br>
+                    </p>
+                </p>
+                <p>
+                    <label for="backend">Select Back End Domain</label>
+                        <select name="backend" id="backend" required>
+                        <optgroup label="Mern Stack">
+                            <option value="nodejs">Node.js</option>
+                            <option value="expressjs">Express.js</option>
+                        </optgroup>
+                        <optgroup label="Mean Stack">
+                            <option value="nodejs1">Node.js</option>
+                            <option value="expressjs1">Express.js</option>
+                        </optgroup>
+                        <optgroup label="Other Stack">
+                            <option value="typescript">TypeScript</option>
+                            <option value="python">Python</option>
+                            <option value="php">Php</option>
+                            <option value="java">Java</option>
+                        </optgroup>
+                        </select>
+                </p>
+                <p>
+                        <label for="database">Select Database</label>
+                        <select name="database" id="database" required>
+                            <option value="mongodb">Mongo DB</option>
+                            <option value="posgrel">Posgrel</option>
+                            <option value="sql">Sql</option>
+                            <option value="mysql">Mysql</option>
+                        </select>
+                </p>
+
+                <p>
+                    <p>
+                    <ins>
+                        <em style="text-decoration: solid;">Social Media Plateforms</em>
+                    </ins>
+                    </p>
+                    <label for="linkedin">LinkedIn URL :</label>
+                    <input type="url" name="linkedin" id="linkedin" placeholder="LinkedIn URL" required>
+                    <br>
+                    <br>
+                    <label for="facebook">FaceBook URL :</label>
+                    <input type="url" name="facebook" id="facebook" placeholder="FaceBook URL" required>
+                    <br>
+                </p>
+                <p>
+                    <fieldset>
+                        <legend>
+                            Personal Details
+                        </legend>
+                        <p>
+                            <ins><label for="gender">Gender</label></ins>
+                            <br>
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" id="male" required>
+                            <br>
+                            <label for="female">Female</label>
+                            <input type="radio" name="gender" id="female" required>
+                        </p>
+                        <p>
+                            <label for="father">Father Name</label>
+                            <input type="text" name="father" id="father_name" placeholder="Father Name" required>
+                        </p>
+                        <p>
+                            <label for="mother">Mother Name</label>
+                            <input type="text" name="mother" id="mother_name" placeholder="Mother Name" required>
+                        </p>
+                        <p>
+                            <label for="brother">How Many Brothers &nbsp;&nbsp;</label>
+                            <select name="brother" id="brother">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="sister">How Many Sisters &nbsp;&nbsp;</label>
+                            <select name="sister" id="sister">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                        </p>
+                        <p>
+                        </p>
+                    </fieldset>
+                </p>
+                <p>
+                    <input type="checkbox" name="condition1" id="condition1">
+                    &nbsp;&nbsp; Terms and Conditions Allowed
+                </p>
+                <p>
+                    <input type="reset" value="Form Fully Rest" name="reset">
+                    &nbsp;&nbsp;
+                    <input type="button" value="Submit" name="submit">
+                </p>
+            </fieldset>
+        </form>
+    </article>
+    </body>
+</html>
