@@ -1,7 +1,4 @@
-github profile markdown generator logo
-GitHub Profile README Generator
-Star this repo16649
-Fork on GitHub4702
+
 <h1 align="center">Hi 👋, I'm Joyal Shaji</h1>
 <h3 align="center">A passionate Full Stack Develper from India</h3>
 
