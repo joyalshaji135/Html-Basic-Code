@@ -4,6 +4,9 @@
 
 <table border="1">
     <tr>
+        <th colspan="12">
+        Lesson 1
+        </th>
         <th>
             SL.No
         </th>
