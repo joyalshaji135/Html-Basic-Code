@@ -4,7 +4,7 @@
 
 <table border="1">
     <tr>
-        <th colspan="12">
+        <th rowspan="12">
         Lesson 1
         </th>
         <th>
