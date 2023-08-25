@@ -272,7 +272,7 @@
         </td>
     </tr>
     <tr>
-        <td rowspan="8">
+        <td rowspan="9">
         Lesson 5
         </td>
         <td>
