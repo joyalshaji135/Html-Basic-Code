@@ -381,32 +381,155 @@
             33
         </td>
         <td>
-            figcaption
+            table
         </td>
         <td>
-            Caption on the Figure
-        </td>
-    </tr>
-    <tr>
-        <td>
-            23
-        </td>
-        <td>
-            figcaption
-        </td>
-        <td>
-            Caption on the Figure
+            table tag
         </td>
     </tr>
     <tr>
         <td>
-            23
+            34
         </td>
         <td>
-            figcaption
+            tr
         </td>
         <td>
-            Caption on the Figure
+            defines a row in an HTML table
+        </td>
+    </tr>
+    <tr>
+        <td>
+            35
+        </td>
+        <td>
+            th
+        </td>
+        <td>
+            define a col heading
+        </td>
+    </tr>
+    <tr>
+        <td>
+            36
+        </td>
+        <td>
+            td
+        </td>
+        <td>
+            defines a standard data cell in an HTML table
+        </td>
+    </tr>
+    <tr>
+        <td>
+            37
+        </td>
+        <td>
+            tbody
+        </td>
+        <td>
+            body of the table
+        </td>
+    </tr>
+    <tr>
+        <td>
+            38
+        </td>
+        <td>
+            tfoot
+        </td>
+        <td>
+            foot of the table
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="8">
+        Lesson 7
+        </td>
+        <td>
+            39
+        </td>
+        <td>
+            th
+        </td>
+        <td>
+            define a col heading
+        </td>
+    </tr>
+    <tr>
+        <td>
+            40
+        </td>
+        <td>
+            th
+        </td>
+        <td>
+            define a col heading
+        </td>
+    </tr>
+    <tr>
+        <td>
+            35
+        </td>
+        <td>
+            th
+        </td>
+        <td>
+            define a col heading
+        </td>
+    </tr>
+    <tr>
+        <td>
+            35
+        </td>
+        <td>
+            th
+        </td>
+        <td>
+            define a col heading
+        </td>
+    </tr>
+    <tr>
+        <td>
+            35
+        </td>
+        <td>
+            th
+        </td>
+        <td>
+            define a col heading
+        </td>
+    </tr><tr>
+        <td>
+            35
+        </td>
+        <td>
+            th
+        </td>
+        <td>
+            define a col heading
+        </td>
+    </tr>
+    <tr>
+        <td>
+            35
+        </td>
+        <td>
+            th
+        </td>
+        <td>
+            define a col heading
+        </td>
+    </tr>
+    <tr>
+        <td>
+            35
+        </td>
+        <td>
+            th
+        </td>
+        <td>
+            define a col heading
         </td>
     </tr>
 </table> 
