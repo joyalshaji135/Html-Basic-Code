@@ -74,7 +74,7 @@
             6
         </td>
         <td>
-            <!-- &nbsp; -->
+            And Symbol(&)nbsp;
         </td>
         <td>
             Spacing Tag
@@ -85,7 +85,7 @@
             7
         </td>
         <td>
-            &lt;
+            And Symbol(&)lt;
         </td>
         <td>
             Less than Symbol
@@ -96,7 +96,7 @@
             8
         </td>
         <td>
-            <!-- &gt; -->
+            And Symbol(&)gt;
         </td>
         <td>
             Greater than Symbol
@@ -107,7 +107,7 @@
             9
         </td>
         <td>
-            <!-- &copy; -->
+            And Symbol(&)copy;
         </td>
         <td>
             Copy Right Symbol
