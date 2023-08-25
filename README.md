@@ -4,8 +4,8 @@
 
 <table border="1">
     <tr>
-        <th rowspan="12">
-        Lesson 1
+        <th>
+        Lesson
         </th>
         <th>
             SL.No
@@ -18,6 +18,9 @@
         </th>
     </tr>
     <tr>
+        <td rowspan="12">
+        Lesson 1
+        </td>
         <td>
             1
         </td>
