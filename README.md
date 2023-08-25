@@ -85,7 +85,7 @@
             7
         </td>
         <td>
-            <!-- &lt; -->
+            &lt;
         </td>
         <td>
             Less than Symbol
