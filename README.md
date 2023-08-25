@@ -443,7 +443,7 @@
         </td>
     </tr>
     <tr>
-        <td rowspan="8">
+        <td rowspan="5">
         Lesson 7
         </td>
         <td>
