@@ -222,17 +222,191 @@
         </td>
     </tr>
     <tr>
-        <td rowspan="5">
+        <td rowspan="1">
         Lesson 3
         </td>
         <td>
-            19
+            20
         </td>
         <td>
-            abbr
+            a 
         </td>
         <td>
-            Mouse Curser In the Point Used Title Show
+            it is an Anger tag using linking on particluar link
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="3">
+        Lesson 4
+        </td>
+        <td>
+            21
+        </td>
+        <td>
+            img
+        </td>
+        <td>
+            it is used to imort the image URL or Image file
+        </td>
+    </tr>
+    <tr>
+        <td>
+            22
+        </td>
+        <td>
+            figure
+        </td>
+        <td>
+            Specifies Self-Container
+        </td>
+    </tr>
+    <tr>
+        <td>
+            23
+        </td>
+        <td>
+            figcaption
+        </td>
+        <td>
+            Caption on the Figure
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="8">
+        Lesson 5
+        </td>
+        <td>
+            24
+        </td>
+        <td>
+            header
+        </td>
+        <td>
+            header of the project
+        </td>
+    </tr>
+    <tr>
+        <td>
+            25
+        </td>
+        <td>
+            main
+        </td>
+        <td>
+            main content of the project
+        </td>
+    </tr>
+    <tr>
+        <td>
+            26
+        </td>
+        <td>
+            nav
+        </td>
+        <td>
+            set of navigation links.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            27
+        </td>
+        <td>
+            article
+        </td>
+        <td>
+            self-contained content
+        </td>
+    </tr>
+    <tr>
+        <td>
+            28
+        </td>
+        <td>
+            aside
+        </td>
+        <td>
+            some content aside from the content it is placed in.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            29
+        </td>
+        <td>
+            details
+        </td>
+        <td>
+            details of the contents
+        </td>
+    </tr>
+    <tr>
+        <td>
+            30
+        </td>
+        <td>
+            summary
+        </td>
+        <td>
+            content summary
+        </td>
+    </tr>
+    <tr>
+        <td>
+            31
+        </td>
+        <td>
+            section
+        </td>
+        <td>
+            Particluar Content Display
+        </td>
+    </tr>
+    <tr>
+        <td>
+            32
+        </td>
+        <td>
+            footer
+        </td>
+        <td>
+            project footer set tag
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="6">
+        Lesson 6
+        </td>
+        <td>
+            33
+        </td>
+        <td>
+            figcaption
+        </td>
+        <td>
+            Caption on the Figure
+        </td>
+    </tr>
+    <tr>
+        <td>
+            23
+        </td>
+        <td>
+            figcaption
+        </td>
+        <td>
+            Caption on the Figure
+        </td>
+    </tr>
+    <tr>
+        <td>
+            23
+        </td>
+        <td>
+            figcaption
+        </td>
+        <td>
+            Caption on the Figure
         </td>
     </tr>
 </table> 
