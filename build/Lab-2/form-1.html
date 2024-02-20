@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Tags</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <h1>Form Tags</h1>
+    <form action="">
+      <fieldset style="width: 25%" class="fieldset">
+        <legend>Student Registration Form</legend>
+        <p>
+          <label for="First Name">First Name</label>
+        </p>
+        <p>
+          <input
+            type="text"
+            name="first_name"
+            id=""
+            placeholder="Enter Your First Name"
+            required
+          />
+        </p>
+
+        <p>
+          <label for="Last Name">Last Name</label>
+        </p>
+        <p>
+          <input
+            type="text"
+            name="last_name"
+            id=""
+            placeholder="Enter Your Last Name"
+            required
+          />
+        </p>
+
+        <p>
+          <label for="Last Name">Email ID</label>
+        </p>
+        <p>
+          <input
+            type="email"
+            name="email"
+            id=""
+            placeholder="Enter Your Email"
+            required
+          />
+        </p>
+        <p>
+          <label for="gender">Select Gender</label>
+        </p>
+        <p>
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="" />
+        </p>
+        <p>
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="" />
+        </p>
+        <p>
+          <label for="Dob">Date of Birth</label>
+        </p>
+        <p>
+          <input type="date" name="date" id="" />
+        </p>
+        <fieldset class="fieldset">
+          <legend>All Certificates</legend>
+          <p>
+            <label for="tenth-file">10<sup>th</sup> Certificate</label>
+            &nbsp;&nbsp; <input type="file" name="tenth_file" id="" required />
+          </p>
+          <p>
+            <label for="tw-file">12<sup>th</sup> Certificate</label>
+            &nbsp;&nbsp; <input type="file" name="tw_file" id="" required />
+          </p>
+          <p>
+            <label for="degree-file">Dregree Certificate</label>
+            &nbsp;&nbsp; <input type="file" name="degree_file" id="" required />
+          </p>
+        </fieldset>
+        <p>
+          <label for="password">Password</label>
+        </p>
+        <p>
+          <input
+            type="password"
+            name="password"
+            id=""
+            placeholder="Enter Your Password"
+          />
+        </p>
+        <p>
+          <label for="address">Enter Your Address</label>
+        </p>
+        <p>
+			<textarea rows="4" cols="50" name="address">
+        Enter Your Address
+			</textarea>
+        </p>
+        <p>
+          <label for="database">Select Course</label>
+          <select name="course" id="course" required>
+            <option value="bca">BCA</option>
+            <option value="bba">BBA</option>
+            <option value="B.COM">B.COM</option>
+            <option value="ba">BA ENGLISH</option>
+          </select>
+        </p>
+        <p>
+          <center>
+            <input type="reset" value="Reset" />
+            <input type="submit" value="Submit" />
+          </center>
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>
