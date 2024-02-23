@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(14, 14, 122);
+}
+
+.container{
+    margin-top: 200px;
+    margin-left: 600px;
+    background-color: aliceblue;
+    margin-right: 600px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 250px;
+    border-radius: 20px;
+}
+
+label
+{
+    margin-top: 100px;
+}
+
+.common
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.button
+{
+    margin-top: 20px;
+    background-color:rgb(14, 14, 122);
+    color: #ffffff;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.common-address
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.common-radio
+{
+    margin-bottom: 10px;
+}
+.username-login
+{
+    margin-top: 10px;
+}
